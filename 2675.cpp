@@ -3,25 +3,34 @@
 #include <string>
 using namespace std;
 
-int main()
+void bubble_sort(int arr[], int n)
 {
-	int t;
-	cin >> t;
-	for (int i = 0; i < t; i++)
-	{
-		int r;
-		string test_case;
-		cin >> r;
-		cin >> test_case;
+	int temp;
 
-		for (int j = 0; j < test_case.length(); j++)
+	for (int i = 0; i < n; i++)
+	{
+		for (int j = 0; j < n - (i + 1); j++)
 		{
-			for (int k = 0; k < r; k++)
+			if (arr[j] > arr[j + 1])
 			{
-				cout << test_case[j];
+				temp = arr[j];
+				arr[j] = arr[j + 1];
+				arr[j + 1] = temp;
 			}
 		}
-		cout << endl;
 	}
-	return 0;
+
+	for (int count = 0; count < n; count++)
+	{
+		cout << arr[count] << " ";
+	}
+}
+
+int main()
+{
+	int arr[1000] = {};
+	int N;
+	cin >> N;
+
+	
 }
