@@ -35,7 +35,7 @@ int main()
 			}
 		}
 		
-		cout << winner / stu_num * 100 << endl; // 높은친구 / 전체 학생수로 평균넘은 학생들을 계산.
+		cout << winner / stu_num * 100 << "%" << endl; // 높은친구 / 전체 학생수로 평균넘은 학생들을 계산.
 		sum = 0;
 		winner = 0;
 	}
