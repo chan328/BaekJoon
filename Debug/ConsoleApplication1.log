@@ -1,2 +1,2 @@
-﻿  11635.cpp
-c:\users\chan\source\repos\consoleapplication1\consoleapplication1\11635.cpp(11): error C3867: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::reserve': 비표준 구문입니다. '&'를 사용하여 멤버 포인터를 만드세요.
+﻿  2902.cpp
+  ConsoleApplication1.vcxproj -> C:\Users\Chan\source\repos\ConsoleApplication1\Debug\ConsoleApplication1.exe
